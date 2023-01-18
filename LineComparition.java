@@ -6,11 +6,18 @@ public class LineComparition {
 	}
 	public static void main(String[] args) {
 		Double l1=(Length(1,6,3,4));
+<<<<<<< HEAD
 		Double l2=(Length(1,2,12,10));
 		System.out.println(l1);
 		System.out.println(l2);
 		
 		System.out.println(l1.compareTo(l2));
+=======
+		Double l2=(Length(1,6,3,6));
+		System.out.println(l1);
+		System.out.println(l2);
+		System.out.println(l1.equals(l2));
+>>>>>>> master
 
 	}
 }
