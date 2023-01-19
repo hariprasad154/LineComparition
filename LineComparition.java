@@ -5,10 +5,11 @@ public class LineComparition {
 		return Math.sqrt((x2-x1)^2 + (y2-y2)^2);
 	}
 	public static void main(String[] args) {
-		Double l1=(Length(1,6,3,4));
-		Double l2=(Length(1,6,3,6));
+		double l1=(Length(1,6,3,4));
+		double l2=(Length(1,6,3,4));
+
 		System.out.println(l1);
 		System.out.println(l2);
-		System.out.println(l1.equals(l2));
+    System.out.println(l1.equals(l2));
 	}
 }
