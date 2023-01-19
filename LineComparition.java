@@ -10,7 +10,7 @@ public class LineComparition {
 
 		System.out.println(l1);
 		System.out.println(l2);
-
+    System.out.println(l1.equals(l2));
 
 	}
 }
